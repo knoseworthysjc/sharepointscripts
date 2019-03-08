@@ -1,51 +1,66 @@
+$LogPath = "C:\Users\KevinNoseworthy\Documents\GitHub\powershellsharepoint\HLF\logs"
+
 $url = "https://sjccontent.sharepoint.com/teams/SJCHLFContentAdmin"
 
 Connect-PnPOnline -Url $url
-$file = "All Data.xlsx"
+$file = "All Data2.xlsx"
 
-$data = Import-Excel -Path $file -WorksheetName "Flyers" -DataOnly
+$data = Import-Excel -Path $file -WorksheetName "Flyers3" -DataOnly
+    
+    <#$sff = Add-PnPFolder -Name "TESTING" -Folder "Project Assets"
+    $tf =  "Project Assets/TESTING/"
+    $tff = Add-PnPFolder -Name "Newspaper" -Folder $tf
+    $tff = Add-PnPFolder -Name "Flyers" -Folder $tf
+    
+for($i = 2008; $i -lt 2021; $i++){
+    $sff = Add-PnPFolder -Name $i -Folder "Project Assets"
+    $tf =  "Project Assets/" + $i + "/"
+    $tff = Add-PnPFolder -Name "Newspaper" -Folder $tf
+    $tff = Add-PnPFolder -Name "Flyers" -Folder $tf
+}#>
 
-for ($i = 0; $i -lt 10; $i++) {
+for ($i = 0; $i -lt $data.length; $i++) 
+{
+    
+    
     $rec = $data[$i]
+    $logobj = ConvertTo-Json -InputObject $rec
     #$rec
+    $projecttype = $rec.projecttype
     $season = $rec.season
-    $project = $rec.media 
-    $template = $rec.mediatemplate
-    $type = $rec.CampaignType
-    $nav =  $data[$i].Navigation
-    $tbl = @{}
-    
-    $tbl.add("campaignnavigation",$nav)
-    
-    $tbl.add("season","HLF TermStore|Campaign Management|Seasons|" + $season)
-    
-    $projectterm = "HLF TermStore|Campaign Management|Projects|" + $type + "|" + $project
-    Import-PnPTaxonomy -Terms $projectterm
-
-    $tbl.add("project",$projectterm)
-    $tbl.add("totalpages",$rec."Total Pages")
-    $tbl.add("startdate",$rec.fromdate)
-    $tbl.add("enddate",$rec.finaldate)
-    $tbl.add("template",$template)
-    #$tbl.add("Title","")
-    $tbl.add("projecttype",$type)
-    $qry = "<View><Query><Where><And><Eq><FieldRef Name='season'/><Value Type='TaxonomyFieldType'>" + $season + "</Value></Eq><Eq><FieldRef Name='project'/><Value Type='TaxonomyFieldType'>" + $project + "</Value></Eq></And></Where></Query></View>"
-    
-    write-host($i);
-    write-host($project);
-    Add-PnpListItem -List "Projects" -Values $tbl -ContentType "Projects"
-    <#$qry
-    $item = Get-PnPListItem -List "Lists/Projects" -Query $qry
-    if($item.Id)
-        {
-            write-host("Exists")
-            Set-PnPListItem -List "Lists/Projects" -Identity $item.Id -Values $tbl
+    $project = $rec.project
+    $docket = $rec.docket
+    $template = $rec.template
+    $totalpages = $rec.totalpages
+    $startdate = $rec.startdate
+    $enddate = $rec.enddate
+    $campaignnavigation = $rec.campaignnavigation
+    $rec
+    try{
+        $projectterm = "HLF TermStore|Campaign Management|Projects|" + $projecttype + "|" + $project
+        Import-PnPTaxonomy -Terms $campaignnavigation
+        Import-PnPTaxonomy -Terms $projectterm
+    } Catch {
+        
+    }
+       
+    $logfilename = $season.replace("|","-") + "_" + $project.replace("|","-") + ".json"
+    $pf = "Project Assets/" + $season + "/" + $projecttype 
+    $logfile = $LogPath + "\failed\" + $logfilename
+    $str = ConvertTo-Json -InputObject @{input=$tbl;rec=$rec}
+    #Add-content $Logfile -value $str
+        try{
+            $item = Add-PnpListItem -List "Projects" -Values $rec -ContentType "Projects"
+        } Catch {
+            
         }
-        else{
-            write-host("New")
-            Add-PnpListItem -List "Projects" -Values $tbl -ContentType "Projects"
-        }
-    #>
-   
+        <#
+        try {
+            $pff = Add-PnPFolder -Name $project -Folder $pf   
+        } Catch {
+            
+        }#>    
+    
+    
     
 }

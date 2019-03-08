@@ -1,0 +1,12 @@
+{
+    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": false,
+    "hideColumnHeader": true,
+    "rowFormatter":{
+        "elmType":"div",
+        "attributes":{
+            "class":"sp-row-card"
+        },
+        "child"
+    }
+}

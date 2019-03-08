@@ -1,0 +1,22 @@
+{
+    "docket":  0,
+    "projecttype":  "Newspaper",
+    "totalpages":  1,
+    "enddate":  "\/Date(1211947200000)\/",
+    "project":  "HLF TermStore|Campaign Management|Projects|Newspaper|HLFMAY22-MAY28-08-NP",
+    "season":  "HLF TermStore|Campaign Management|Seasons|2008",
+    "startdate":  "\/Date(1211428800000)\/",
+    "campaignnavigation":  "HLF TermStore|Campaign Navigation|2008|Newspaper|HLFMAY22-MAY28-08-NP"
+}
+{
+    "docket":  0,
+    "projecttype":  "Newspaper",
+    "totalpages":  "1",
+    "enddate":  "\/Date(1211947200000)\/",
+    "project":  "HLF TermStore|Campaign Management|Projects|Newspaper|HLFMAY22-MAY28-08-NP",
+    "season":  "HLF TermStore|Campaign Management|Seasons|2008",
+    "startdate":  "\/Date(1211428800000)\/",
+    "campaignnavigation":  {
+
+                           }
+}
