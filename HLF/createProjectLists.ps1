@@ -1,11 +1,14 @@
 $LogPath = "C:\Users\KevinNoseworthy\Documents\GitHub\powershellsharepoint\HLF\logs"
+$logfileb = $LogPath + "\failed\folders.json"
+$logfilea = $LogPath + "\failed\records.json"
+
 
 $url = "https://sjccontent.sharepoint.com/teams/SJCHLFContentAdmin"
 
 Connect-PnPOnline -Url $url
 $file = "All Data2.xlsx"
 
-$data = Import-Excel -Path $file -WorksheetName "Flyers3" -DataOnly
+$data = Import-Excel -Path $file -WorksheetName "Flyers2" -DataOnly
     
     <#$sff = Add-PnPFolder -Name "TESTING" -Folder "Project Assets"
     $tf =  "Project Assets/TESTING/"
@@ -19,48 +22,46 @@ for($i = 2008; $i -lt 2021; $i++){
     $tff = Add-PnPFolder -Name "Flyers" -Folder $tf
 }#>
 
-for ($i = 0; $i -lt $data.length; $i++) 
-{
-    
+for($i = 0; $i -lt $data.count; $i++) 
+{    
     
     $rec = $data[$i]
-    $logobj = ConvertTo-Json -InputObject $rec
-    #$rec
-    $projecttype = $rec.projecttype
-    $season = $rec.season
-    $project = $rec.project
-    $docket = $rec.docket
-    $template = $rec.template
-    $totalpages = $rec.totalpages
-    $startdate = $rec.startdate
-    $enddate = $rec.enddate
-    $campaignnavigation = $rec.campaignnavigation
-    $rec
-    try{
-        $projectterm = "HLF TermStore|Campaign Management|Projects|" + $projecttype + "|" + $project
-        Import-PnPTaxonomy -Terms $campaignnavigation
-        Import-PnPTaxonomy -Terms $projectterm
-    } Catch {
+    $str = ConvertTo-Json -InputObject $rec
+
+    if($rec.season -ne ""){    
         
-    }
-       
-    $logfilename = $season.replace("|","-") + "_" + $project.replace("|","-") + ".json"
-    $pf = "Project Assets/" + $season + "/" + $projecttype 
-    $logfile = $LogPath + "\failed\" + $logfilename
-    $str = ConvertTo-Json -InputObject @{input=$tbl;rec=$rec}
-    #Add-content $Logfile -value $str
-        try{
-            $item = Add-PnpListItem -List "Projects" -Values $rec -ContentType "Projects"
-        } Catch {
-            
+    write-host("Season:" + $rec.season)
+    
+    Import-PnPTaxonomy -Terms $rec.season
+    write-host("Project:" + $rec.project)
+    Import-PnPTaxonomy -Terms $rec.project
+        
+    for($y=1; $y -le $rec.totalpages; $y++)
+        {
+            $pgtax = $rec.project + "|" + $y
+            write-host("Pages:" + $pgtax)
+            Import-PnPTaxonomy -Terms $pgtax
         }
-        <#
-        try {
-            $pff = Add-PnPFolder -Name $project -Folder $pf   
+     
+        try{
+            write-host("List Item:" + $rec.project)
+            $item = Add-PnpListItem -List "Projects" -Values $rec -ContentType "Projects"   
         } Catch {
-            
-        }#>    
-    
-    
+            Add-content -Path $Logfilea -value $str      
+        }
+
+        try{
+            $pf = $rec.season.replace("HLF TermStore|Campaign Navigation|","Project Assets/").replace("|","/")
+            $pfreplace = $rec.season + "|" + $rec.projecttype + "|"
+            $pfn = $rec.project.replace($pfreplace,"")
+            write-host("Folder:" + $pfn)
+            $pff = Add-PnPFolder -Name $pfn -Folder $pf
+        }
+        Catch {
+            Add-content -Path $Logfileb -value $str       
+        }
+    } else {
+        write-host("Record:" + $i)    
+        }
     
 }

@@ -7,6 +7,34 @@
         "attributes":{
             "class":"sp-row-card"
         },
-        "child"
+        "children":[
+          {
+              "elmType":"div",
+              "style":{"text-align":"left","min-width":"200px"},
+              "children":[
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "sp-row-title"
+                    },
+                    "txtContent": "[$project.label]"
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "sp-row-listPadding"
+                    },
+                    "txtContent": "[$startdate]"
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "sp-row-listPadding"
+                    },
+                    "txtContent": "[$Template]"
+                  }
+              ]
+            }  
+        ]
     }
 }
