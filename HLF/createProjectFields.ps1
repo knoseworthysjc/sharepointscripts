@@ -33,3 +33,5 @@ Add-PnPFieldToContentType -Field "enddate" -ContentType "Projects"
 Add-PnPFieldToContentType -Field "totalpages" -ContentType "Projects"
 Add-PnPFieldToContentType -Field "docket" -ContentType "Projects"
 Add-PnPFieldToContentType -Field "projectdetails" -ContentType "Projects"
+
+Add-PnPTaxonomyField -Group "Asset Management" -DisplayName "Asset Project" -InternalName "assetproject" -TermSetPath "HLF TermStore|Campaign Management|Projects"

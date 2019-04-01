@@ -1,0 +1,67 @@
+AlphaBroderContentTerms|Product Management|Categories|Bottoms
+AlphaBroderContentTerms|Product Management|Categories|Bottoms|Performance
+AlphaBroderContentTerms|Product Management|Categories|T-Shirts
+AlphaBroderContentTerms|Product Management|Categories|T-Shirts|Performance
+AlphaBroderContentTerms|Product Management|Categories|Hats
+AlphaBroderContentTerms|Product Management|Categories|Sweatshirts
+AlphaBroderContentTerms|Product Management|Categories|T-Shirts|Basics
+AlphaBroderContentTerms|Product Management|Categories|T-Shirts|Fashion
+AlphaBroderContentTerms|Product Management|Categories|Accessories
+AlphaBroderContentTerms|Product Management|Categories|Polos
+AlphaBroderContentTerms|Product Management|Categories|Bottoms|Fashion
+AlphaBroderContentTerms|Product Management|Categories|Kids
+AlphaBroderContentTerms|Product Management|Categories|Kids|Fashion
+AlphaBroderContentTerms|Product Management|Categories|Sweatshirts|Fashion
+AlphaBroderContentTerms|Product Management|Categories|Bottoms|Basics
+AlphaBroderContentTerms|Product Management|Categories|Collections
+AlphaBroderContentTerms|Product Management|Categories|Sweatshirts|Performance
+AlphaBroderContentTerms|Product Management|Categories|Bags
+AlphaBroderContentTerms|Product Management|Categories|Bags|Athletic
+AlphaBroderContentTerms|Product Management|Categories|Bags|Beverage Totes
+AlphaBroderContentTerms|Product Management|Categories|Bags|Cinch Sacks
+AlphaBroderContentTerms|Product Management|Categories|Bags|Poly Totes
+AlphaBroderContentTerms|Product Management|Categories|Bottoms|Loungewear
+AlphaBroderContentTerms|Product Management|Categories|Fleece|Fashion
+AlphaBroderContentTerms|Product Management|Categories|Sweatshirts|Loungewear
+AlphaBroderContentTerms|Product Management|Categories|Wovens
+AlphaBroderContentTerms|Product Management|Categories|Aprons
+AlphaBroderContentTerms|Product Management|Categories|Hats|Performance
+AlphaBroderContentTerms|Product Management|Categories|Hats|Structured
+AlphaBroderContentTerms|Product Management|Categories|Hats|Trucker
+AlphaBroderContentTerms|Product Management|Categories|Hats|Unstructured
+AlphaBroderContentTerms|Product Management|Categories|Kids|Infants
+AlphaBroderContentTerms|Product Management|Categories|Knits & Layering
+AlphaBroderContentTerms|Product Management|Categories|Outerwear
+AlphaBroderContentTerms|Product Management|Categories|Towels
+AlphaBroderContentTerms|Product Management|Categories|Outerwear|Lightweight
+AlphaBroderContentTerms|Product Management|Categories|Knits & Layering|Performance
+AlphaBroderContentTerms|Product Management|Categories|Outerwear|Insulated
+AlphaBroderContentTerms|Product Management|Categories|Sweatshirts|Basics
+AlphaBroderContentTerms|Product Management|Categories|Bags|Boats And Canvas Totes
+AlphaBroderContentTerms|Product Management|Categories|Bags|Messengers
+AlphaBroderContentTerms|Product Management|Categories|Outerwear|Midweight
+AlphaBroderContentTerms|Product Management|Categories|Outerwear|Poly & Performance
+AlphaBroderContentTerms|Product Management|Categories|Wovens|Casual
+AlphaBroderContentTerms|Product Management|Categories|Wovens|Performance
+AlphaBroderContentTerms|Product Management|Categories|Polos|Performance
+AlphaBroderContentTerms|Product Management|Categories|Hats|Flex Fit
+AlphaBroderContentTerms|Product Management|Categories|Bags|Coolers & Event Bags
+AlphaBroderContentTerms|Product Management|Categories|Bags|Tech Back Packs
+AlphaBroderContentTerms|Product Management|Categories|Fleece
+AlphaBroderContentTerms|Product Management|Categories|Polos|Poly & Performance
+AlphaBroderContentTerms|Product Management|Categories|Polos|Cotton & Cotton Blends
+AlphaBroderContentTerms|Product Management|Categories|Sweatshirts|Poly & Performance
+AlphaBroderContentTerms|Product Management|Categories|Scrubs
+AlphaBroderContentTerms|Product Management|Categories|Accessories|Fashion
+AlphaBroderContentTerms|Product Management|Categories|Outerwear|Fashion
+AlphaBroderContentTerms|Product Management|Categories|Knits & Layering|Lightweight
+AlphaBroderContentTerms|Product Management|Categories|Kids|Toddlers
+AlphaBroderContentTerms|Product Management|Categories|Outerwear|Soft Shell
+AlphaBroderContentTerms|Product Management|Categories|Sweaters
+AlphaBroderContentTerms|Product Management|Categories|Bottoms|Athletic
+AlphaBroderContentTerms|Product Management|Categories|Hats|Headwear
+AlphaBroderContentTerms|Product Management|Categories|Hats|Knit Caps
+AlphaBroderContentTerms|Product Management|Categories|Hats|Sunprotection & Visors
+AlphaBroderContentTerms|Product Management|Categories|Blankets
+AlphaBroderContentTerms|Product Management|Categories|T-Shirts|Aprons, Scarves, Headbands
+AlphaBroderContentTerms|Product Management|Categories|Accessories|Aprons, Scarves, Headbands

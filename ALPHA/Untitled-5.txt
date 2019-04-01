@@ -1,0 +1,10 @@
+let Source = "{""items"":[ & Text.Combine(Table.Column(masterdataview, "record"),",") & "]}" 
+
+let
+    Source = masterdataview,
+    #"Removed Columns" = Table.RemoveColumns(Source,{"abstyle", "brand", "short_description", "features", "fabric", "gender", "garmentfit", "icons", "companions.ladies", "companions.tall", "companions.youth", "companions.men", "files.color_name", "files.back_filename", "files.side_filename", "files.front_filename", "files.nomodel_filename", "files.swatch_filename", "files.color_code", "sizes", "category", "msrp", "msrpcode", "good_better_best"}),
+    #"Renamed Columns" = Table.RenameColumns(#"Removed Columns",{{"record", "items"}}),
+    #"Added Custom" = Table.AddColumn(#"Renamed Columns", "group", each "items"),
+    #"Grouped Rows" = Table.Group(#"Added Custom", {"group"}, {{"items", each _, type table}})
+in
+    #"Grouped Rows"
