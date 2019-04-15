@@ -1,11 +1,15 @@
+
+
 $url = "https://sjccontent.sharepoint.com/teams/AlphaBroderContent"
 
-Connect-PnPOnline -Url $url
+$conn = Connect-PnPOnline -Url $url
 $file = "Alpha Archive History.xlsx"
 
 $data = Import-Excel -Path $file -WorksheetName "Brands Categories Styles" -DataOnly
+$taxonmy = Import-Excel -Path $file -WorksheetName "taxonmy" -DataOnly
 
-for($i = 990; $i -lt $data.count; $i++) 
+
+for($i = 990; $i -lt 1000; $i++) 
 { 
 $r = $data[$i]
 
@@ -13,14 +17,13 @@ $r = $data[$i]
 if($r.abstyle) 
 {
     $rord = @{};
-    $rord.Add('abstyle',$r.abstyle.trim());
-
+    $rord.Add('abstyle',$r.abstyle.trim()) 
     if($r.subcategory){
         $rord.Add("categories","AlphaBroderContentTerms|Product Management|Categories|" + $r.category + "|" + $r.subcategory);
-        $rord.Add("abstyles","AlphaBroderContentTerms|Product Management|Products|" + $r.brand + "|" + $r.category + "|" + $r.subcategory + "|" + $r.abstyle);
+       
     } else {
         $rord.Add("categories","AlphaBroderContentTerms|Product Management|Categories|" + $r.category);
-        $rord.Add("abstyles", "AlphaBroderContentTerms|Product Management|Products|" + $r.brand + "|" + $r.category + "|" + $r.abstyle);
+       
     }
     #$ab = $r.abstyle
     #$abstyles = Get-PnpTerm -Identity $ab -Termgroup "AlphaBroderContentTerms" -Recursive -Termset "Product Management"
@@ -29,7 +32,7 @@ if($r.abstyle)
     if($r.millstyle -ne ""){
        $rord.Add("millstyle",$r.millstyle);
     }
-    $rord.Add("brand", "AlphaBroderContentTerms|Product Management|Brands|" + $r.brand);
+    $rord.Add("brand", "AlphaBroderContentTerms|Product Management|Brands|" + $r.brand.replace("&","＆"));
     $rord.Add("usstatus",$r.style_status);
     $rord.Add("styledescription",$r.short_description.replace("",""))
     $rord.Add("mainstyleattributes",$r.long_description.replace("",""))
@@ -75,20 +78,17 @@ $rord.Add("ussizerange",$r.sizerange)
 $rord.Add("uscolorgrouping",$r.catalog_color_group)
 
 Write-Host($r.abstyle + "   " + $r.brand + "    " + $r.category + "    " + $r.subcategory)
-#$dataa = ConvertTo-Json($rord)
+
 try{
-    <#$json = ConvertTo-Json $rord
-    $outfile = ".\jsonfiles\"+ $abstylerec + ".json"
-    Add-content $outfile -value $json -Encoding Unicode
-    #>
+    
     
     $item = Add-PnpListItem -List "Products" -Values $rord -ContentType "Products"
-    $str = $rord.abstyles + "   " + $item.Id
+    $str = $rord.abstyles + "   " + $ListItem.Id
     Add-content ".\jsonfiles\create.log" -value $str -Encoding Unicode
     #Add-content ".\jsonfiles\create.log" -value $dataa -Encoding Unicode
 } catch {
+    $_.Exception.Message
     $str = $rord.abstyles + "   False"
-    $rord
     Add-content ".\jsonfiles\create.log" -value $str -Encoding Unicode
     #Add-content ".\jsonfiles\create.log" -value $data -Encoding Unicode
 }

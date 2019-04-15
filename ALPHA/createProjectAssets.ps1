@@ -2,8 +2,18 @@ $url = "https://sjccontent.sharepoint.com/teams/AlphaBroderContent"
 
 Connect-PnPOnline -Url $url
 <#Create Content Type#>
-$ct = Get-PnpContentType -Identity "Rich Media Asset" -InSiteHierarchy
-Add-PnpContentType -Name "Project Assets" -Group "Project Assets" -ParentContentType $ct | Out-Null
+#$ct = Get-PnpContentType -Identity "Rich Media Asset" -InSiteHierarchy
+#Add-PnpContentType -Name "Project Assets" -Group "Project Assets" -ParentContentType $ct | Out-Null
+function createField ($group, $ct, $name, $type) {
+    $pattern = '[^a-zA-Z]'
+    $internalname = $name.ToLower() -replace $pattern,""
+  
+    Add-PnpField -Group $group -DisplayName $name -InternalName $internalname -Type $type
+    assignField $ct $internalname
+}
+function assignField($ct, $name) {
+    Add-PnPFieldToContentType -ContentType $ct -Field $name
+}
 
 <#Create Fields#>
 Add-PnPTaxonomyField -Group "Project Assets" -DisplayName "Asset Season" -InternalName "assetseason" -TermSetPath "TermStore-AlphaBroderContent|Project Management|Projects" -Required
