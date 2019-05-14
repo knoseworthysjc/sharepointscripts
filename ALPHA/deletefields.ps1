@@ -1,0 +1,56 @@
+$url = "https://sjccontent.sharepoint.com/teams/AlphaBroderContent"
+
+Connect-PnPOnline -Url $url
+
+Remove-PnpField abstyles
+Remove-PnpField abstyle
+Remove-PnpField assignedstyles
+Remove-PnpField categories
+Remove-PnpField cdncolorgrouping
+Remove-PnpField cdnsizegroup
+Remove-PnpField cdnsizerange
+Remove-PnpField cdnstatus
+Remove-PnpField cdntier
+Remove-PnpField companionladies
+Remove-PnpField companiontall
+Remove-PnpField companionyouth
+Remove-PnpField descriptionofchange
+Remove-PnpField earthfriendly
+Remove-PnpField fresizegroup
+Remove-PnpField fresizerange
+Remove-PnpField garmentfit
+Remove-PnpField garmentfitfre
+Remove-PnpField gender
+Remove-PnpField genderfre
+Remove-PnpField icons
+Remove-PnpField mainstyleattributes
+Remove-PnpField mainstyleattributescdn
+Remove-PnpField mainstyleattributesfre
+Remove-PnpField millstyle
+Remove-PnpField styledescription
+Remove-PnpField styledescriptioncdn
+Remove-PnpField styledescriptionfre
+Remove-PnpField stylefamily
+Remove-PnpField sub-attributes
+Remove-PnpField sub-attributescdn
+Remove-PnpField sub-attributesfre
+Remove-PnpField sub-categories
+Remove-PnpField uscolorgrouping
+Remove-PnpField ussizegroup
+Remove-PnpField ussizerange
+Remove-PnpField usstatus
+Remove-PnpField ustier
+Remove-PnpField assetpage
+Remove-PnpField assetpagefr
+Remove-PnpField assetpageto
+Remove-PnpField assetproject
+Remove-PnpField assetseason
+Remove-PnpField localpath
+Remove-PnpField assignedprojects
+Remove-PnpField docket
+Remove-PnpField projectbrands
+Remove-PnpField projectcategories
+Remove-PnpField projectdetails
+Remove-PnpField projectname
+Remove-PnpField projectseason
+Remove-PnpField totalpages

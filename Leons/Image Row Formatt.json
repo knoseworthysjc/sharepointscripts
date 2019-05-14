@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": false,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "block",
+      "padding": "8px",
+      "margin-bottom": "10px",
+      "width": "100%",
+      "box-shadow": "4px 4px 8px darkgrey"
+    },
+    "attributes": {
+      "class": "ms-bgColor-neutralLighter"
+    },
+    "children": []
+  }
+}

@@ -6,8 +6,8 @@ $file = "C:\Users\KevinNoseworthy\St Joseph Communications, Content Group\Walmar
 
 $data = Import-Excel -Path $file -WorksheetName "Print Media" -DataOnly
 
-#$ct = Get-PnpContentType -Identity "Item" -InSiteHierarchy
-#Add-PnpContentType -Name "MMS_DATA" -Group "Walmart Data" -ParentContentType $ct | Out-Null
+$ct = Get-PnpContentType -Identity "Item" -InSiteHierarchy
+Add-PnpContentType -Name "MMS_DATA" -Group "Walmart Data" -ParentContentType $ct | Out-Null
 
 function createField ($group, $ct, $name, $type) {
     $pattern = '[^a-zA-Z]'
@@ -34,8 +34,8 @@ createTaxonmyField $group $ct "MMS Season" "WalmartTerms|Project Management|Proj
 createTaxonmyField $group $ct "MMS Project" "WalmartTerms|Project Management|Projects"
 
 $rec = $data[0].PSObject.Properties
-Foreach ($k in $rec)
+<#Foreach ($k in $rec)
 {
     $name = $k.Name
     createField $ct $group $name "Text"
-}
+}#>
