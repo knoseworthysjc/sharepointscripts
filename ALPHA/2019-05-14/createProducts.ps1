@@ -10,7 +10,7 @@ Add-PnpField -Group "Product Management" -DisplayName "Mill Style" -InternalName
 Add-PnpField -Group "Product Management" -DisplayName "US Tier" -InternalName "ustier" -Type "Choice" -Choices "","prime","companions","tier 4","primeplus","pre-closeout","new","closeout","dnr"
 Add-PnpField -Group "Product Management" -DisplayName "CDN Tier" -InternalName "cdntier" -Type "Choice" -Choices "","prime","companions","tier 4","primeplus","pre-closeout","new","closeout","dnr"
 Add-PnPTaxonomyField -Group "Product Management" -DisplayName "Style Family" -InternalName "stylefamily" -TermSetPath "AlphaBroderContentTerms|Product Management|Style Family"
-Add-PnPTaxonomyField -Group "Product Management" -DisplayName "Brand" -InternalName "brand" -TermSetPath "AlphaBroderContentTerms|Product Management|" -Required
+Add-PnPTaxonomyField -Group "Product Management" -DisplayName "Brand" -IpnternalName "brand" -TermSetPath "AlphaBroderContentTerms|Product Management|" -Required
 Add-PnPTaxonomyField -Group "Product Management" -DisplayName "Categories" -InternalName "categories" -TermSetPath "AlphaBroderContentTerms|Product Management|"
 Add-PnPTaxonomyField -Group "Product Management" -DisplayName "Sub-Categories" -InternalName "subcategories" -TermSetPath "AlphaBroderContentTerms|Product Management|"
 Add-PnpField -Group "Product Management" -DisplayName "US Status" -InternalName "usstatus" -Type "Choice" -Choices "","Active","Active/Catalog Only","New","New/Catalog Only","Not Available","DNR","AB-DROP"
