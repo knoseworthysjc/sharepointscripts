@@ -1,0 +1,1 @@
+if List.Count(Text.Split(Text.Replace([Name],[Custom]&"_",""),"_")) = 2 then Text.Split([Name],"_"){1} else if Text.Contains([#"FullName - Copy.2.2"], " ") then "" else if Text.Contains([#"FullName - Copy.2.2"], ".") then "" else [#"FullName - Copy.2.2"]

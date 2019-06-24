@@ -105,3 +105,47 @@ Add-PnPFieldToContentType -ContentType $ct -Field "cdnsizegroup"
 Add-PnPFieldToContentType -ContentType $ct -Field "cdnsizerange"
 
 Add-PnpTaxonomyField -Group "Product Management" -DisplayName "ColorName" -InternalName "colorname" -TermSetPath "AlphaBroderContent|Product Management|Colors"
+
+<#
+$list = "listname"
+$ctx = Get-PnPContext
+$lkField = Add-PnPField -List $list -DisplayName "fieldname" -InternalName "fieldname" -Type Lookup -AddToDefaultView
+$lkField = $lookupField.TypedObject
+$lkField.LookupList = "Lookup List ID"
+$lkField.LookupField = "Lookup List field name"
+$lkField.update()
+$ctx.ExecuteQuery()
+#>
+
+$list = New-PnpList -Title "Products" -EnableContentTypes -EnableVersioning -OnQuickLaunch
+Set-PnpView -List "Products(CDN)" -Identity "All Items" -Fields "","cdntier","stylefamily","brands","categories","cdnstatus","gender","styledescription","mainstyleattributes","subattributes","earthfriendly","garmentfit","icons","companionmens","companionladies","companiontall","companionyouth","descriptionofchange","colorgrouping","sizegroup","sizerange"
+
+Set-PnpView -List "Products(FRE)" -Identity "All Items" -Fields "style","brands","categories","cdnstatus","gender","styledescription","mainstyleattributes","subattributes","icons","companionmens","descriptionofchange","colorgrouping","sizegroup","sizerange"
+
+Set-PnpView -List "Products" -Identity "All Items" -Fields "Brand","productcategory","Sub-Category","Style","Mill Style","US Tier","CDN Tier","US Status","CDN Status","Gender","Style Description","Main Style Attributes","Sub-Attributes","Earth Friendly","Garment Fit","Icons","Size Range","Size Group","Color Grouping","Companion Men's","Companion Ladies","Companion Tall","Companion Youth","Description of Change"
+
+$ctx = Get-PnPContext
+$a = Add-PnPField -Group "Product Management" -DisplayName "Companion Mens" -InternalName "companionmens" -Type "Lookup"
+$a.LookupList = "c2aad094-5078-4d66-860d-667ab799f705"
+$a.LookupField = "style"
+$a.update()
+
+$b = Add-PnPField -Group "Product Management" -DisplayName "Companion Ladies" -InternalName "companionladies" -Type "Lookup"
+$b.LookupList = "c2aad094-5078-4d66-860d-667ab799f705"
+$b.LookupField = "style"
+$b.update()
+$c = Add-PnPField -Group "Product Management" -DisplayName "Companion Tall" -InternalName "companiontall" -Type "Lookup"
+$c.LookupList = "c2aad094-5078-4d66-860d-667ab799f705"
+$c.LookupField = "style"
+$c.update()
+
+$ctx = Get-PnPContext
+$d = Add-PnPField -Group "Product Management" -DisplayName "Assigned Styles(Lookup)" -InternalName "assignedstyleslookup" -Type "Lookup"
+$d.LookupList = "c2aad094-5078-4d66-860d-667ab799f705"
+$d.LookupField = "style"
+$d.update()
+$ctx.ExecuteQuery()
+
+Add-PnpTaxonomyField -Group "Product Management" -DisplayName "Item Number" -InternalName "itemnumber" -TermSetPath "AlphaBroderContent|ItemNumbers"
+
+Add-PnpField -Group "Product Management" -DisplayName "productsizes" -InternalName "productsizes" -Type "Choice" -Choices "S-1XL","S-2XL","S-4XL","S-5XL","S-6XL","S-L","S-L/XL","S-XL","S/M, L/XL","S/M-2XL/3XL","S/M-L/XL","XLT-2XLT","XLT-2XT","XLT-3XLT","XLT-3XT","XLT-5XT","XS, S, M, L, XL","XS, S, M, L, XL, 2XL, 3XL","XS-2XL","XS-3XL","XS-4XL","XS-5XL","XS-6XL"

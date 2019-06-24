@@ -1,0 +1,73 @@
+[
+  {
+    "@odata.etag": "\"5\"",
+    "ItemInternalId": "6945",
+    "ID": 6945,
+    "productcategory": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 4,
+      "Value": "Bags"
+    },
+    "productcategory#Id": 4,
+    "itemnumber": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "fc836e2b-6d0e-4c31-ac36-ea1494be1481",
+      "WssId": 4948,
+      "Label": "23860",
+      "Path": null,
+      "Value": "23860|fc836e2b-6d0e-4c31-ac36-ea1494be1481"
+    },
+    "itemnumber#WssId": 4948,
+    "usstatus": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 2,
+      "Value": "New"
+    },
+    "usstatus#Id": 2,
+    "cdnstatus": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 2,
+      "Value": "New"
+    },
+    "cdnstatus#Id": 2,
+    "productdescription": "Marmot Anza Pack",
+    "Attributes": "• 420-denier 100% polyester big ripstop\n• Padded laptop sleeve fits most 15\" computers\n• Internal organizer with key clip\n• Zippered pocket with organizer and key clip\n• Two external mesh water bottle pockets\n• Padded shoulder harness with sternum strap",
+    "earthfriendly": false,
+    "productsizes": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": -1,
+      "Value": "10\"w x 18\"h x 5\"d"
+    },
+    "productsizes#Id": -1,
+    "colorgrouping": "Black, Gray",
+    "assignedprojects": [],
+    "assignedprojects@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy)",
+    "assignedprojects#WssId": [],
+    "assignedprojects#WssId@odata.type": "#Collection(Int64)",
+    "imprintsize": "7\"w x 5.5\"h (Reduced imprint area for embroidery orders: 4\"w x 3.5\"h)",
+    "style": "products|23860",
+    "newcolors": false,
+    "stdimprintarea": "Centered on Front",
+    "decorationmethod": "Heat Transfer (Optional Embroidery or 4CP Heat Transfer available for a fee)",
+    "exclusive": false,
+    "Created": "2019-06-13T22:28:50Z",
+    "Modified": "2019-06-14T22:22:09Z",
+    "{Identifier}": "Lists%252fProducts%252f6945_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/AlphaBroderContent/_layouts/15/listform.aspx?PageType=4&ListId=c2aad094-5078-4d66-860d-667ab799f705&ID=6945&ContentTypeID=0x0100900581C66FD90F46A2FEDA8BAC191C71009BC3D0E324445546A3ECB34CA2545364",
+    "{Name}": "",
+    "{FilenameWithExtension}": "",
+    "{Path}": "Lists/Products/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x0100900581C66FD90F46A2FEDA8BAC191C71009BC3D0E324445546A3ECB34CA2545364",
+      "Name": "Products"
+    },
+    "{ContentType}#Id": "0x0100900581C66FD90F46A2FEDA8BAC191C71009BC3D0E324445546A3ECB34CA2545364"
+  }
+]

@@ -1,0 +1,1 @@
+"Brand","productcategory","Sub-Category","Style","Mill Style","US Tier","CDN Tier","US Status","CDN Status","Gender","Style Description","Main Style Attributes","Sub-Attributes","Earth Friendly","Garment Fit","Icons","Color Grouping","Companion Men's","Companion Ladies","Companion Tall","Companion Youth","Size Range","Size Group","Description of Change"
