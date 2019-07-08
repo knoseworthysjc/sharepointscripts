@@ -19,6 +19,7 @@ Add-PnpTaxonomyField -Group "Project Management" -DisplayName "Project" -Interna
 Add-PnpTaxonomyField -Group "Project Management" -DisplayName "Projects" -InternalName "projects" -TermSetPath "AlphaBroderContent|Project Management|Projects"
 
 Add-PnpTaxonomyField -Group "Project Management" -DisplayName "Assigned Projects" -InternalName "assignedprojects" -TermSetPath "AlphaBroderContent|Project Management|Projects"
+Add-PnpTaxonomyField -Group "Project Relations" -DisplayName "Assigned Project" -InternalName "assignedprojects" -TermSetPath "AlphaBroderContent|Project Management|Projects"
 
 Add-PnpField -Group "Project Management" -DisplayName "Type" -InternalName "projecttype" -Type "Choice" -Choices "","Catalog","WebSite","HandTag"
 Add-PnpField -Group "Project Management" -DisplayName "Docket" -InternalName "docket" -Type "Text"
