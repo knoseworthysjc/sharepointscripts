@@ -4,7 +4,7 @@ $conn = Connect-PnPOnline -Url $url
 $file = "SharePoint References.xlsx"
 $throttlecount = 0;
 
-Get-PnPFile -Url "/Shared Documents/SharePoint References.xlsx" -AsFile -Path "jsonfiles" -FileName $file
+Get-PnPFile -Url "/Shared Documents/SharePoint References.xlsx" -AsFile -Path "jsonfiles" -FileName $file -Force
 $path = "jsonfiles/" + $file
 $data = Import-Excel -Path $path -WorksheetName "existingProducts" -DataOnly
 <#
