@@ -1,10 +1,12 @@
 $url = "https://sjccontent.sharepoint.com/teams/AlphaBroderContent"
 
 $conn = Connect-PnPOnline -Url $url
-$file = "C:\Users\KevinNoseworthy\St Joseph Communications, Content Group\AlphaBroderContent - Documents\SharePoint References.xlsx"
+$file = "SharePoint References.xlsx"
 $throttlecount = 0;
 
-$data = Import-Excel -Path $file -WorksheetName "existingProducts" -DataOnly
+Get-PnPFile -Url "/Shared Documents/SharePoint References.xlsx" -AsFile -Path "jsonfiles" -FileName $file
+$path = "jsonfiles/" + $file
+$data = Import-Excel -Path $path -WorksheetName "existingProducts" -DataOnly
 <#
 for($i = 0;$i -lt $data.Count; $i++)
 {
@@ -65,7 +67,7 @@ if($r.abstyle)
     $throttlecount = $throttlecount + 1; 
     if($throttlecount -eq 100)
     {
-        Start-Sleep -Seconds 2
+        Start-Sleep -Seconds 3
         $throttlecount = 0
     }
     
