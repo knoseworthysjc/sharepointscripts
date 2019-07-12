@@ -1,0 +1,26 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "img",
+        "attributes": {
+          "src": {
+            "operator": "+",
+            "operands": [
+              "https://prod-80.westus.logic.azure.com/workflows/0f5513a8e9cc403d98768bf449fde432/triggers/manual/paths/invoke/GetImageUrl/",
+              "AlphaBroderContent/",
+              "Color Swatches/",
+              "@currentField.lookupId",
+              "/?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=GAHWWIvFXMH_vumOyxEgGOHn6oHUF0AjVNdG5ffLAA8"
+            ]
+          }
+        },
+        "style": {
+          "border": "1px solid black",
+          "width": "100%",
+          "height": "100%"
+        }
+      }
+    ]
+  }
