@@ -1,56 +1,112 @@
 {
-    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-    "hideSelection": true,
-    "hideColumnHeader": true,
-    "rowFormatter": {
-      "elmType": "div",
-      "attributes": {
-        "class": "ms-borderColor-neutralLight"
-      },
-      "style": {
-        "float": "left"
-      },
-      "children": [
-        {
-          "elmType": "div",
-          "attributes": {
-            "class": "ms-bgColor-themeLighterAlt ms-bgColor-themePrimary--hover ms-fontColor-white--hover"
-          },
-          "style": {
-            "display": "flex",
-            "flex-wrap": "wrap",
-            "flex-direction": "column",
-            "align-items": "stretch",
-            "padding": "1px",
-            "margin": "10px",
-            "max-width": "930px",
-            "box-shadow": "2px 2px 4px darkgrey"
-          },
-          "children": [
-            {
-              "elmType": "img",
-              "attributes": {
-                "src": "@currentWeb + '/_layouts/15/getpreview.ashx?path='+[$FileRef]"
-              },
-              "style": {
-                "width": "auto",
-                "height": "300px"
-              },
-              "children": [
-                {
-                  "elmType": "span",
-                  "txtContent": "[$productdescription]",
-                  "style": {
-                    "margin-bottom": "1px"
-                  },
-                  "attributes": {
-                    "class": "ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  }
+  "@odata.etag": "\"7\"",
+  "ItemInternalId": "4633",
+  "ID": 4633,
+  "stylefamily": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+    "Id": 391,
+    "Value": null
+  },
+  "stylefamily#Id": 391,
+  "Brand": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+    "Id": 9,
+    "Value": "Backpacker"
+  },
+  "Brand#Id": 9,
+  "productcategory": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+    "Id": 24,
+    "Value": "Wovens"
+  },
+  "productcategory#Id": 24,
+  "itemnumber": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+    "TermGuid": "2ddce4cd-5040-4eea-a8a1-7e930c95e55a",
+    "WssId": 2701,
+    "Label": "BP7091",
+    "Path": null,
+    "Value": "BP7091|2ddce4cd-5040-4eea-a8a1-7e930c95e55a"
+  },
+  "itemnumber#WssId": 2701,
+  "millstyle": "BP7091",
+  "usstatus": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+    "Id": 2,
+    "Value": "New"
+  },
+  "usstatus#Id": 2,
+  "cdnstatus": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+    "Id": 4,
+    "Value": "Not Available"
+  },
+  "cdnstatus#Id": 4,
+  "gender": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+    "Id": 0,
+    "Value": "Men's"
+  },
+  "gender#Id": 0,
+  "productdescription": "Stretch Flannel",
+  "Attributes": "•  97% combed cotton, 3% spandex\r•  venting with mesh fabric allows for air circulation\r•  roll-up button sleeves\r•  zippered security pocket\r•  hidden button-down pocket\r•  Velcro® patch back collar keeps it from flapping up \nin the wind",
+  "earthfriendly": false,
+  "productsizes": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+    "Id": -1,
+    "Value": "S-3XL"
+  },
+  "productsizes#Id": -1,
+  "sizegroup": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+    "Id": -1,
+    "Value": "S, M, L, 2XL, 3XL"
+  },
+  "sizegroup#Id": -1,
+  "colorgrouping": "Forest Green, Gold Navy, Light Teal, Rust",
+  "assignedprojects": [],
+  "assignedprojects@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy)",
+  "assignedprojects#WssId": [],
+  "assignedprojects#WssId@odata.type": "#Collection(Int64)",
+  "style": "BP7091|styles",
+  "Created": "2019-06-13T20:17:38Z",
+  "Author": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+    "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "DisplayName": "Kevin Noseworthy",
+    "Email": "kevin.noseworthy@stjosephcontent.com",
+    "Picture": "https://sjccontent.sharepoint.com/teams/AlphaBroderContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+    "Department": null,
+    "JobTitle": null
+  },
+  "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+  "Modified": "2019-07-09T21:33:15Z",
+  "Editor": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+    "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "DisplayName": "Kevin Noseworthy",
+    "Email": "kevin.noseworthy@stjosephcontent.com",
+    "Picture": "https://sjccontent.sharepoint.com/teams/AlphaBroderContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+    "Department": null,
+    "JobTitle": null
+  },
+  "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+  "{Identifier}": "Lists%252fProducts%252f4633_.000",
+  "{IsFolder}": false,
+  "{Thumbnail}": {
+    "Large": null,
+    "Medium": null,
+    "Small": null
+  },
+  "{Link}": "https://sjccontent.sharepoint.com/teams/AlphaBroderContent/_layouts/15/listform.aspx?PageType=4&ListId=c2aad094-5078-4d66-860d-667ab799f705&ID=4633&ContentTypeID=0x0100C445644023C2F7419F8F8AD639926424005BDF58148D4F004E93260A68BE575F4D",
+  "{Name}": "",
+  "{FilenameWithExtension}": "",
+  "{Path}": "Lists/Products/",
+  "{ContentType}": {
+    "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+    "Id": "0x0100C445644023C2F7419F8F8AD639926424005BDF58148D4F004E93260A68BE575F4D",
+    "Name": "Styles"
+  },
+  "{ContentType}#Id": "0x0100C445644023C2F7419F8F8AD639926424005BDF58148D4F004E93260A68BE575F4D",
+  "{VersionNumber}": "7.0"
+}
