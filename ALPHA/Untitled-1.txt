@@ -1,0 +1,8 @@
+$username = "kevin.noseworthy@stjosephcontent.com"
+$password = "Kibbs12300808!"
+$cred = New-Object -TypeName System.Management.Automation.PSCredential -argumentlist $userName, $(convertto-securestring $Password -asplaintext -force)
+Connect-SPOService -Url https://sjccontent-admin.sharepoint.com -Credential $cred
+
+$url="https://sjccontent.sharepoint.com/teams/SJCHLFContentAdmin"
+$NewSiteUrl="https://sjccontent.sharepoint.com/teams/HighlandFarmsContent"
+Start-SPOSiteRename -Identity $url -NewSiteUrl $NewSiteUrl
