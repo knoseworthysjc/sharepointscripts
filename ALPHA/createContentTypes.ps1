@@ -147,6 +147,13 @@ $d.LookupField = "style"
 $d.update()
 $ctx.ExecuteQuery()
 
+$ctx = Get-PnPContext
+$d = Add-PnPField -Group "Asset Management" -DisplayName "Featured Image" -InternalName "featuredimage" -Type "Lookup"
+$d.LookupList = "38ca8eb8-6cad-4315-994e-3efa9a055f2a"
+$d.LookupField = "title"
+$d.update()
+$ctx.ExecuteQuery()
+
 Add-PnpTaxonomyField -Group "Product Management" -DisplayName "Item Number" -InternalName "itemnumber" -TermSetPath "AlphaBroderContent|ItemNumbers"
 
 Add-PnpField -Group "Product Management" -DisplayName "productsizes" -InternalName "productsizes" -Type "Choice" -Choices "S-1XL","S-2XL","S-4XL","S-5XL","S-6XL","S-L","S-L/XL","S-XL","S/M, L/XL","S/M-2XL/3XL","S/M-L/XL","XLT-2XLT","XLT-2XT","XLT-3XLT","XLT-3XT","XLT-5XT","XS, S, M, L, XL","XS, S, M, L, XL, 2XL, 3XL","XS-2XL","XS-3XL","XS-4XL","XS-5XL","XS-6XL"
