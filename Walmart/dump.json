@@ -1,0 +1,2481 @@
+[
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "1",
+    "ID": 1,
+    "Title": "2017-Week33-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "c0cf8a1c-a5e9-457a-976c-faa4a0d3286e",
+      "WssId": 11,
+      "Label": "WEEK33",
+      "Path": null,
+      "Value": "WEEK33|c0cf8a1c-a5e9-457a-976c-faa4a0d3286e"
+    },
+    "projecthierarchy#WssId": 11,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-24T21:35:45Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f1_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=1&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week33-Circular",
+    "{FilenameWithExtension}": "2017-Week33-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "2",
+    "ID": 2,
+    "Title": "2017-Week34-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "d82894e6-9c72-476c-b95a-5c92e39a8123",
+      "WssId": 12,
+      "Label": "WEEK34",
+      "Path": null,
+      "Value": "WEEK34|d82894e6-9c72-476c-b95a-5c92e39a8123"
+    },
+    "projecthierarchy#WssId": 12,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-24T21:44:28Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f2_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=2&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week34-Circular",
+    "{FilenameWithExtension}": "2017-Week34-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "3",
+    "ID": 3,
+    "Title": "2017-Week35-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "94aaf510-e3aa-4068-b2c4-2489842c3dcb",
+      "WssId": 6,
+      "Label": "WEEK35",
+      "Path": null,
+      "Value": "WEEK35|94aaf510-e3aa-4068-b2c4-2489842c3dcb"
+    },
+    "projecthierarchy#WssId": 6,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-24T22:36:55Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f3_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=3&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week35-Circular",
+    "{FilenameWithExtension}": "2017-Week35-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "4",
+    "ID": 4,
+    "Title": "2017-Week35-Digest",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 2,
+      "Value": "Digest"
+    },
+    "Campaign#Id": 2,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "94aaf510-e3aa-4068-b2c4-2489842c3dcb",
+      "WssId": 6,
+      "Label": "WEEK35",
+      "Path": null,
+      "Value": "WEEK35|94aaf510-e3aa-4068-b2c4-2489842c3dcb"
+    },
+    "projecthierarchy#WssId": 6,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T14:27:33Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f4_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=4&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week35-Digest",
+    "{FilenameWithExtension}": "2017-Week35-Digest",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "5",
+    "ID": 5,
+    "Title": "2017-Week36-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "d20baef0-f57a-4ffa-9203-5881135d1742",
+      "WssId": 15,
+      "Label": "WEEK36",
+      "Path": null,
+      "Value": "WEEK36|d20baef0-f57a-4ffa-9203-5881135d1742"
+    },
+    "projecthierarchy#WssId": 15,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:02:02Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f5_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=5&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week36-Circular",
+    "{FilenameWithExtension}": "2017-Week36-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "6",
+    "ID": 6,
+    "Title": "2017-Week36-Digest",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 2,
+      "Value": "Digest"
+    },
+    "Campaign#Id": 2,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "d20baef0-f57a-4ffa-9203-5881135d1742",
+      "WssId": 15,
+      "Label": "WEEK36",
+      "Path": null,
+      "Value": "WEEK36|d20baef0-f57a-4ffa-9203-5881135d1742"
+    },
+    "projecthierarchy#WssId": 15,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:02:05Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f6_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=6&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week36-Digest",
+    "{FilenameWithExtension}": "2017-Week36-Digest",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "7",
+    "ID": 7,
+    "Title": "2017-Week35-Digital",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 1,
+      "Value": "Digital"
+    },
+    "Campaign#Id": 1,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "94aaf510-e3aa-4068-b2c4-2489842c3dcb",
+      "WssId": 6,
+      "Label": "WEEK35",
+      "Path": null,
+      "Value": "WEEK35|94aaf510-e3aa-4068-b2c4-2489842c3dcb"
+    },
+    "projecthierarchy#WssId": 6,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-24T22:24:36Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f7_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=7&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week35-Digital",
+    "{FilenameWithExtension}": "2017-Week35-Digital",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "8",
+    "ID": 8,
+    "Title": "2017-Week37-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "32bc6aae-71bf-497f-889d-6e970e7dd295",
+      "WssId": 17,
+      "Label": "WEEK37",
+      "Path": null,
+      "Value": "WEEK37|32bc6aae-71bf-497f-889d-6e970e7dd295"
+    },
+    "projecthierarchy#WssId": 17,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:02:08Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f8_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=8&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week37-Circular",
+    "{FilenameWithExtension}": "2017-Week37-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "9",
+    "ID": 9,
+    "Title": "2017-Week38-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "50e024e2-d66d-4e3f-82c2-cbaa1f3e27c4",
+      "WssId": 18,
+      "Label": "WEEK38",
+      "Path": null,
+      "Value": "WEEK38|50e024e2-d66d-4e3f-82c2-cbaa1f3e27c4"
+    },
+    "projecthierarchy#WssId": 18,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:02:09Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f9_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=9&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week38-Circular",
+    "{FilenameWithExtension}": "2017-Week38-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "10",
+    "ID": 10,
+    "Title": "2017-Week38-Digital",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 1,
+      "Value": "Digital"
+    },
+    "Campaign#Id": 1,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "50e024e2-d66d-4e3f-82c2-cbaa1f3e27c4",
+      "WssId": 18,
+      "Label": "WEEK38",
+      "Path": null,
+      "Value": "WEEK38|50e024e2-d66d-4e3f-82c2-cbaa1f3e27c4"
+    },
+    "projecthierarchy#WssId": 18,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:02:10Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f10_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=10&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week38-Digital",
+    "{FilenameWithExtension}": "2017-Week38-Digital",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "13",
+    "ID": 13,
+    "Title": "2017-Week39-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "91f4449f-3d85-4b98-ae9c-884bf68f2dea",
+      "WssId": 20,
+      "Label": "WEEK39",
+      "Path": null,
+      "Value": "WEEK39|91f4449f-3d85-4b98-ae9c-884bf68f2dea"
+    },
+    "projecthierarchy#WssId": 20,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:33Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f13_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=13&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week39-Circular",
+    "{FilenameWithExtension}": "2017-Week39-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "14",
+    "ID": 14,
+    "Title": "2017-Week40-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "6093eab0-dced-4dc7-899d-a06c209dad21",
+      "WssId": 21,
+      "Label": "WEEK40",
+      "Path": null,
+      "Value": "WEEK40|6093eab0-dced-4dc7-899d-a06c209dad21"
+    },
+    "projecthierarchy#WssId": 21,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:36Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f14_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=14&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week40-Circular",
+    "{FilenameWithExtension}": "2017-Week40-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "15",
+    "ID": 15,
+    "Title": "2017-Week41-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "462103ff-6719-4a95-90ed-7a593d43fce1",
+      "WssId": 22,
+      "Label": "WEEK41",
+      "Path": null,
+      "Value": "WEEK41|462103ff-6719-4a95-90ed-7a593d43fce1"
+    },
+    "projecthierarchy#WssId": 22,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:37Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f15_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=15&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week41-Circular",
+    "{FilenameWithExtension}": "2017-Week41-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "16",
+    "ID": 16,
+    "Title": "2017-Week41-Digest",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 2,
+      "Value": "Digest"
+    },
+    "Campaign#Id": 2,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "462103ff-6719-4a95-90ed-7a593d43fce1",
+      "WssId": 22,
+      "Label": "WEEK41",
+      "Path": null,
+      "Value": "WEEK41|462103ff-6719-4a95-90ed-7a593d43fce1"
+    },
+    "projecthierarchy#WssId": 22,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:39Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f16_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=16&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week41-Digest",
+    "{FilenameWithExtension}": "2017-Week41-Digest",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "17",
+    "ID": 17,
+    "Title": "2017-Week42-Digest",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 2,
+      "Value": "Digest"
+    },
+    "Campaign#Id": 2,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "859c4b7b-dafd-4c4e-bb32-40d5522a425c",
+      "WssId": 24,
+      "Label": "WEEK42",
+      "Path": null,
+      "Value": "WEEK42|859c4b7b-dafd-4c4e-bb32-40d5522a425c"
+    },
+    "projecthierarchy#WssId": 24,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:40Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f17_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=17&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week42-Digest",
+    "{FilenameWithExtension}": "2017-Week42-Digest",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "18",
+    "ID": 18,
+    "Title": "2017-Week42-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "859c4b7b-dafd-4c4e-bb32-40d5522a425c",
+      "WssId": 24,
+      "Label": "WEEK42",
+      "Path": null,
+      "Value": "WEEK42|859c4b7b-dafd-4c4e-bb32-40d5522a425c"
+    },
+    "projecthierarchy#WssId": 24,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:42Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f18_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=18&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week42-Circular",
+    "{FilenameWithExtension}": "2017-Week42-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "19",
+    "ID": 19,
+    "Title": "2017-Week43-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "7568f8e8-5d2c-4731-9a9d-b2f5a67f2896",
+      "WssId": 26,
+      "Label": "WEEK43",
+      "Path": null,
+      "Value": "WEEK43|7568f8e8-5d2c-4731-9a9d-b2f5a67f2896"
+    },
+    "projecthierarchy#WssId": 26,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:44Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f19_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=19&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week43-Circular",
+    "{FilenameWithExtension}": "2017-Week43-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "20",
+    "ID": 20,
+    "Title": "2017-Week43-Digital",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 1,
+      "Value": "Digital"
+    },
+    "Campaign#Id": 1,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "7568f8e8-5d2c-4731-9a9d-b2f5a67f2896",
+      "WssId": 26,
+      "Label": "WEEK43",
+      "Path": null,
+      "Value": "WEEK43|7568f8e8-5d2c-4731-9a9d-b2f5a67f2896"
+    },
+    "projecthierarchy#WssId": 26,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:46Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f20_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=20&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week43-Digital",
+    "{FilenameWithExtension}": "2017-Week43-Digital",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "21",
+    "ID": 21,
+    "Title": "2017-Week44-Digital",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 1,
+      "Value": "Digital"
+    },
+    "Campaign#Id": 1,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "5829db33-7cbd-4982-bd19-b591b01a0f7f",
+      "WssId": 28,
+      "Label": "WEEK44",
+      "Path": null,
+      "Value": "WEEK44|5829db33-7cbd-4982-bd19-b591b01a0f7f"
+    },
+    "projecthierarchy#WssId": 28,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:47Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f21_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=21&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week44-Digital",
+    "{FilenameWithExtension}": "2017-Week44-Digital",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "22",
+    "ID": 22,
+    "Title": "2017-Week45-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "0278ea09-7d9d-42f2-b665-513f8cdd734c",
+      "WssId": 32,
+      "Label": "WEEK45",
+      "Path": null,
+      "Value": "WEEK45|0278ea09-7d9d-42f2-b665-513f8cdd734c"
+    },
+    "projecthierarchy#WssId": 32,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:48Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f22_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=22&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week45-Circular",
+    "{FilenameWithExtension}": "2017-Week45-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "23",
+    "ID": 23,
+    "Title": "2017-Week45-Digital",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 1,
+      "Value": "Digital"
+    },
+    "Campaign#Id": 1,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "0278ea09-7d9d-42f2-b665-513f8cdd734c",
+      "WssId": 32,
+      "Label": "WEEK45",
+      "Path": null,
+      "Value": "WEEK45|0278ea09-7d9d-42f2-b665-513f8cdd734c"
+    },
+    "projecthierarchy#WssId": 32,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:50Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f23_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=23&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week45-Digital",
+    "{FilenameWithExtension}": "2017-Week45-Digital",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "24",
+    "ID": 24,
+    "Title": "2017-Week46-Digest",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 2,
+      "Value": "Digest"
+    },
+    "Campaign#Id": 2,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "b8bf5cb9-330d-44ad-8c83-90ba13dc628c",
+      "WssId": 36,
+      "Label": "WEEK46",
+      "Path": null,
+      "Value": "WEEK46|b8bf5cb9-330d-44ad-8c83-90ba13dc628c"
+    },
+    "projecthierarchy#WssId": 36,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:52Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f24_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=24&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week46-Digest",
+    "{FilenameWithExtension}": "2017-Week46-Digest",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "25",
+    "ID": 25,
+    "Title": "2017-Week46-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "b8bf5cb9-330d-44ad-8c83-90ba13dc628c",
+      "WssId": 36,
+      "Label": "WEEK46",
+      "Path": null,
+      "Value": "WEEK46|b8bf5cb9-330d-44ad-8c83-90ba13dc628c"
+    },
+    "projecthierarchy#WssId": 36,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:54Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f25_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=25&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week46-Circular",
+    "{FilenameWithExtension}": "2017-Week46-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "26",
+    "ID": 26,
+    "Title": "2017-Week46-DigitalDigest",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 3,
+      "Value": "DigitalDigest"
+    },
+    "Campaign#Id": 3,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "b8bf5cb9-330d-44ad-8c83-90ba13dc628c",
+      "WssId": 36,
+      "Label": "WEEK46",
+      "Path": null,
+      "Value": "WEEK46|b8bf5cb9-330d-44ad-8c83-90ba13dc628c"
+    },
+    "projecthierarchy#WssId": 36,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:57Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f26_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=26&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week46-DigitalDigest",
+    "{FilenameWithExtension}": "2017-Week46-DigitalDigest",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "27",
+    "ID": 27,
+    "Title": "2017-Week45-Digest",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 2,
+      "Value": "Digest"
+    },
+    "Campaign#Id": 2,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "0278ea09-7d9d-42f2-b665-513f8cdd734c",
+      "WssId": 32,
+      "Label": "WEEK45",
+      "Path": null,
+      "Value": "WEEK45|0278ea09-7d9d-42f2-b665-513f8cdd734c"
+    },
+    "projecthierarchy#WssId": 32,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:13:59Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f27_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=27&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week45-Digest",
+    "{FilenameWithExtension}": "2017-Week45-Digest",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "28",
+    "ID": 28,
+    "Title": "2017-Week46-Digitalwow",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": -1,
+      "Value": "Digitalwow"
+    },
+    "Campaign#Id": -1,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "b8bf5cb9-330d-44ad-8c83-90ba13dc628c",
+      "WssId": 36,
+      "Label": "WEEK46",
+      "Path": null,
+      "Value": "WEEK46|b8bf5cb9-330d-44ad-8c83-90ba13dc628c"
+    },
+    "projecthierarchy#WssId": 36,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:38Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f28_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=28&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week46-Digitalwow",
+    "{FilenameWithExtension}": "2017-Week46-Digitalwow",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "29",
+    "ID": 29,
+    "Title": "2017-Week44-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "5829db33-7cbd-4982-bd19-b591b01a0f7f",
+      "WssId": 28,
+      "Label": "WEEK44",
+      "Path": null,
+      "Value": "WEEK44|5829db33-7cbd-4982-bd19-b591b01a0f7f"
+    },
+    "projecthierarchy#WssId": 28,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:39Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f29_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=29&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week44-Circular",
+    "{FilenameWithExtension}": "2017-Week44-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "30",
+    "ID": 30,
+    "Title": "2017-Week48-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "23dd610c-7629-414e-aa70-e7048218d126",
+      "WssId": 42,
+      "Label": "WEEK48",
+      "Path": null,
+      "Value": "WEEK48|23dd610c-7629-414e-aa70-e7048218d126"
+    },
+    "projecthierarchy#WssId": 42,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:41Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f30_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=30&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week48-Circular",
+    "{FilenameWithExtension}": "2017-Week48-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "31",
+    "ID": 31,
+    "Title": "2017-Week49-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "8e9ec0d4-bfbb-4a40-837d-c963ae02eb70",
+      "WssId": 44,
+      "Label": "WEEK49",
+      "Path": null,
+      "Value": "WEEK49|8e9ec0d4-bfbb-4a40-837d-c963ae02eb70"
+    },
+    "projecthierarchy#WssId": 44,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:43Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f31_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=31&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week49-Circular",
+    "{FilenameWithExtension}": "2017-Week49-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "32",
+    "ID": 32,
+    "Title": "2017-Week50-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "6e131b8f-68e0-4e7b-8ce7-20f68a6a67f2",
+      "WssId": 45,
+      "Label": "WEEK50",
+      "Path": null,
+      "Value": "WEEK50|6e131b8f-68e0-4e7b-8ce7-20f68a6a67f2"
+    },
+    "projecthierarchy#WssId": 45,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:46Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f32_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=32&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week50-Circular",
+    "{FilenameWithExtension}": "2017-Week50-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "33",
+    "ID": 33,
+    "Title": "2017-Week45-Digitalwow",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": -1,
+      "Value": "Digitalwow"
+    },
+    "Campaign#Id": -1,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "0278ea09-7d9d-42f2-b665-513f8cdd734c",
+      "WssId": 32,
+      "Label": "WEEK45",
+      "Path": null,
+      "Value": "WEEK45|0278ea09-7d9d-42f2-b665-513f8cdd734c"
+    },
+    "projecthierarchy#WssId": 32,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:48Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f33_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=33&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week45-Digitalwow",
+    "{FilenameWithExtension}": "2017-Week45-Digitalwow",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "34",
+    "ID": 34,
+    "Title": "2017-Week51-Digest",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 2,
+      "Value": "Digest"
+    },
+    "Campaign#Id": 2,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "60221744-d512-4bbe-a8d1-bda7368a8a10",
+      "WssId": 47,
+      "Label": "WEEK51",
+      "Path": null,
+      "Value": "WEEK51|60221744-d512-4bbe-a8d1-bda7368a8a10"
+    },
+    "projecthierarchy#WssId": 47,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:53Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f34_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=34&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week51-Digest",
+    "{FilenameWithExtension}": "2017-Week51-Digest",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "35",
+    "ID": 35,
+    "Title": "2017-Week51-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "60221744-d512-4bbe-a8d1-bda7368a8a10",
+      "WssId": 47,
+      "Label": "WEEK51",
+      "Path": null,
+      "Value": "WEEK51|60221744-d512-4bbe-a8d1-bda7368a8a10"
+    },
+    "projecthierarchy#WssId": 47,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:54Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f35_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=35&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week51-Circular",
+    "{FilenameWithExtension}": "2017-Week51-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "36",
+    "ID": 36,
+    "Title": "2017-Week52-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "88cfd33f-906b-4bf1-8c3a-8fd4826b986b",
+      "WssId": 49,
+      "Label": "WEEK52",
+      "Path": null,
+      "Value": "WEEK52|88cfd33f-906b-4bf1-8c3a-8fd4826b986b"
+    },
+    "projecthierarchy#WssId": 49,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:56Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f36_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=36&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week52-Circular",
+    "{FilenameWithExtension}": "2017-Week52-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "38",
+    "ID": 38,
+    "Title": "2017-Week48-Digital",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 1,
+      "Value": "Digital"
+    },
+    "Campaign#Id": 1,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "23dd610c-7629-414e-aa70-e7048218d126",
+      "WssId": 42,
+      "Label": "WEEK48",
+      "Path": null,
+      "Value": "WEEK48|23dd610c-7629-414e-aa70-e7048218d126"
+    },
+    "projecthierarchy#WssId": 42,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:27:59Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f38_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=38&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week48-Digital",
+    "{FilenameWithExtension}": "2017-Week48-Digital",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  },
+  {
+    "@odata.etag": "\"3\"",
+    "ItemInternalId": "39",
+    "ID": 39,
+    "Title": "2017-Week02-Circular",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "Circular"
+    },
+    "Campaign#Id": 0,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "8593d2e1-d4dc-4dde-8d65-9e874245604b",
+      "WssId": 10,
+      "Label": "WEEK2",
+      "Path": null,
+      "Value": "WEEK2|8593d2e1-d4dc-4dde-8d65-9e874245604b"
+    },
+    "projecthierarchy#WssId": 10,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-24T21:33:05Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f39_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=39&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week02-Circular",
+    "{FilenameWithExtension}": "2017-Week02-Circular",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "3.0"
+  },
+  {
+    "@odata.etag": "\"2\"",
+    "ItemInternalId": "42",
+    "ID": 42,
+    "Title": "2017-Week50-Digital",
+    "season": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 0,
+      "Value": "2017"
+    },
+    "season#Id": 0,
+    "Week": 1,
+    "Campaign": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+      "Id": 1,
+      "Value": "Digital"
+    },
+    "Campaign#Id": 1,
+    "projecthierarchy": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedTaxonomy",
+      "TermGuid": "6e131b8f-68e0-4e7b-8ce7-20f68a6a67f2",
+      "WssId": 45,
+      "Label": "WEEK50",
+      "Path": null,
+      "Value": "WEEK50|6e131b8f-68e0-4e7b-8ce7-20f68a6a67f2"
+    },
+    "projecthierarchy#WssId": 45,
+    "Author": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Author#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "Modified": "2019-09-25T15:28:05Z",
+    "Editor": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+      "Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+      "DisplayName": "Kevin Noseworthy",
+      "Email": "kevin.noseworthy@stjosephcontent.com",
+      "Picture": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/UserPhoto.aspx?Size=L&AccountName=kevin.noseworthy@stjosephcontent.com",
+      "Department": null,
+      "JobTitle": null
+    },
+    "Editor#Claims": "i:0#.f|membership|kevin.noseworthy@stjosephcontent.com",
+    "{Identifier}": "Lists%252fProjects%252f42_.000",
+    "{IsFolder}": false,
+    "{Thumbnail}": {
+      "Large": null,
+      "Medium": null,
+      "Small": null
+    },
+    "{Link}": "https://sjccontent.sharepoint.com/teams/WalmartContent/_layouts/15/listform.aspx?PageType=4&ListId=c2a4e2b3-083b-4ff7-954a-49d53cf9b335&ID=42&ContentTypeID=0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{Name}": "2017-Week50-Digital",
+    "{FilenameWithExtension}": "2017-Week50-Digital",
+    "{Path}": "Lists/Projects/",
+    "{ContentType}": {
+      "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+      "Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+      "Name": "Projects"
+    },
+    "{ContentType}#Id": "0x01008407BEE34F3D164BAEA18CE3498F1E4D0050DD6170C2F56C468A8E47F13662D731",
+    "{VersionNumber}": "2.0"
+  }
+]

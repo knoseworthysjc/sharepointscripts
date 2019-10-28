@@ -1,0 +1,92 @@
+{"errors":{
+    "sharepoint":[{
+        "message": "Bad Request",
+        "headers": {
+          "cache-control": "private",
+          "transfer-encoding": "chunked",
+          "content-type": "application/json",
+          "request-id": "947f34a0-0b9b-4068-92ef-9f0decc71e8b",
+          "client-request-id": "947f34a0-0b9b-4068-92ef-9f0decc71e8b",
+          "x-ms-ags-diagnostic": "{\"ServerInfo\":{\"DataCenter\":\"North Central US\",\"Slice\":\"SliceC\",\"Ring\":\"3\",\"ScaleUnit\":\"002\",\"RoleInstance\":\"AGSFE_IN_12\"}}",
+          "strict-transport-security": "max-age=31536000",
+          "date": "Wed, 09 Oct 2019 22:49:31 GMT",
+          "connection": "close"
+        },
+        "statusCode": 400,
+        "body": {
+          "error": {
+            "code": "invalidRequest",
+            "message": "One or more fields with unique constraints already has the provided value.",
+            "innerError": {
+              "request-id": "947f34a0-0b9b-4068-92ef-9f0decc71e8b",
+              "date": "2019-10-09T22:49:31"
+            }
+          }
+        },
+        "_error": true,
+        "method": "Yh8SOw_0v",
+        "flo": 8668,
+        "execution": "2773c185-b969-4bcf-8633-86027a19cffa",
+        "code": 400
+      },{
+        "message": "Bad Request",
+        "headers": {
+          "cache-control": "private",
+          "transfer-encoding": "chunked",
+          "content-type": "application/json",
+          "request-id": "d3a0e275-906b-4c67-b5d0-8186a6ddbfd8",
+          "client-request-id": "d3a0e275-906b-4c67-b5d0-8186a6ddbfd8",
+          "x-ms-ags-diagnostic": "{\"ServerInfo\":{\"DataCenter\":\"North Central US\",\"Slice\":\"SliceC\",\"Ring\":\"3\",\"ScaleUnit\":\"001\",\"RoleInstance\":\"AGSFE_IN_10\"}}",
+          "strict-transport-security": "max-age=31536000",
+          "date": "Thu, 10 Oct 2019 16:04:59 GMT",
+          "connection": "close"
+        },
+        "statusCode": 400,
+        "body": {
+          "error": {
+            "code": "invalidRequest",
+            "message": "One or more fields with unique constraints already has the provided value.",
+            "innerError": {
+              "request-id": "d3a0e275-906b-4c67-b5d0-8186a6ddbfd8",
+              "date": "2019-10-10T16:04:59"
+            }
+          }
+        },
+        "_error": true,
+        "method": "Yh8SOw_0v",
+        "flo": 8668,
+        "execution": "417a60a1-8fa0-4b42-b09d-cd16954c10dd",
+        "code": 400
+      },{
+        "message": "Bad Request",
+        "headers": {
+          "cache-control": "private",
+          "transfer-encoding": "chunked",
+          "content-type": "application/json",
+          "request-id": "2e3dd5d3-98bc-4c93-b97c-2e16daef8cdb",
+          "client-request-id": "2e3dd5d3-98bc-4c93-b97c-2e16daef8cdb",
+          "x-ms-ags-diagnostic": "{\"ServerInfo\":{\"DataCenter\":\"North Central US\",\"Slice\":\"SliceC\",\"Ring\":\"3\",\"ScaleUnit\":\"003\",\"RoleInstance\":\"AGSFE_IN_16\"}}",
+          "strict-transport-security": "max-age=31536000",
+          "date": "Thu, 10 Oct 2019 16:05:15 GMT",
+          "connection": "close"
+        },
+        "statusCode": 400,
+        "body": {
+          "error": {
+            "code": "invalidRequest",
+            "message": "One or more fields with unique constraints already has the provided value.",
+            "innerError": {
+              "request-id": "2e3dd5d3-98bc-4c93-b97c-2e16daef8cdb",
+              "date": "2019-10-10T16:05:15"
+            }
+          }
+        },
+        "_error": true,
+        "method": "Yh8SOw_0v",
+        "flo": 8668,
+        "execution": "6da64ba6-290a-4b7e-80df-db21176c49bf",
+        "code": 400
+      }],
+    "workfront":[]
+}}
+  

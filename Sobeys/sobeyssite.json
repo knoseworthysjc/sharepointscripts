@@ -1,0 +1,35 @@
+{
+    "$schema": "schema.json",
+    "actions": [
+        {
+            "verb": "createContentType",
+            "name": "Signage",
+            "description": "Records For Base Signage",
+            "parentName": "Item",
+            "hidden": false,
+            "subactions":
+                [
+                    {
+                        "verb": "addSiteColumn",
+                        "internalName": "year",
+                        "fieldType":"Number",
+                        "isRequired": true
+                    },
+                    {
+                        
+                        "verb": "addSiteColumn",
+                        "internalName": "Year",
+                        "fieldType":"Number",
+                        "isRequired": true
+                    },
+                    {
+                        
+                        "verb": "createSiteColumnXml",
+                        "schemaXml":"<Field ID=\"{82581bd1-356f-4206-8ff7-a3b6ad1f5553}\" Type=\"Choice\" DisplayName=\"Language\" Required=\"FALSE\" Format=\"Dropdown\" StaticName=\"language\" Name=\"language\"><Default>English</Default><CHOICES><CHOICE>English</CHOICE><CHOICE>French</CHOICE></CHOICES></Field>"
+                    }
+                ]
+        }  
+    ],
+    "bindata": { },
+    "version": 1
+}
