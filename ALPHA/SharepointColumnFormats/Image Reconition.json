@@ -1,0 +1,165 @@
+{
+    "language": "en",
+    "textAngle": -0.12391837689159671,
+    "orientation": "Up",
+    "regions": [{
+        "boundingBox": "50,335,344,460",
+        "lines": [{
+            "boundingBox": "82,335,45,27",
+            "words": [{
+                "boundingBox": "82,335,45,27",
+                "text": "029"
+            }]
+        }, {
+            "boundingBox": "315,446,45,24",
+            "words": [{
+                "boundingBox": "315,446,45,24",
+                "text": "NOIRE"
+            }]
+        }, {
+            "boundingBox": "90,523,290,64",
+            "words": [{
+                "boundingBox": "90,523,18,26",
+                "text": "7"
+            }, {
+                "boundingBox": "164,535,95,36",
+                "text": "70472"
+            }, {
+                "boundingBox": "272,553,74,29",
+                "text": "09569"
+            }, {
+                "boundingBox": "370,568,10,19",
+                "text": "8"
+            }]
+        }, {
+            "boundingBox": "50,574,124,29",
+            "words": [{
+                "boundingBox": "50,574,42,22",
+                "text": "CA"
+            }, {
+                "boundingBox": "102,580,72,23",
+                "text": "51122"
+            }]
+        }, {
+            "boundingBox": "292,588,102,23",
+            "words": [{
+                "boundingBox": "292,588,48,19",
+                "text": "MADE"
+            }, {
+                "boundingBox": "346,595,15,13",
+                "text": "IN"
+            }, {
+                "boundingBox": "366,597,28,14",
+                "text": "CHI'"
+            }]
+        }, {
+            "boundingBox": "253,601,141,26",
+            "words": [{
+                "boundingBox": "253,601,86,21",
+                "text": "FABRIQUÉ"
+            }, {
+                "boundingBox": "345,611,20,13",
+                "text": "EN"
+            }, {
+                "boundingBox": "370,613,24,14",
+                "text": "CHI"
+            }]
+        }, {
+            "boundingBox": "191,634,148,19",
+            "words": [{
+                "boundingBox": "191,634,148,19",
+                "text": "www.walmar-t.ca"
+            }]
+        }, {
+            "boundingBox": "91,649,155,15",
+            "words": [{
+                "boundingBox": "91,649,61,13",
+                "text": "Walmart"
+            }, {
+                "boundingBox": "155,652,70,12",
+                "text": "tradernarks"
+            }, {
+                "boundingBox": "230,657,16,7",
+                "text": "Me"
+            }]
+        }, {
+            "boundingBox": "106,666,105,15",
+            "words": [{
+                "boundingBox": "106,666,26,11",
+                "text": "and"
+            }, {
+                "boundingBox": "137,670,21,7",
+                "text": "are"
+            }, {
+                "boundingBox": "163,667,30,11",
+                "text": "used"
+            }, {
+                "boundingBox": "197,667,14,14",
+                "text": "by"
+            }]
+        }, {
+            "boundingBox": "62,681,216,14",
+            "words": [{
+                "boundingBox": "62,681,52,12",
+                "text": "Toutes"
+            }, {
+                "boundingBox": "119,682,19,11",
+                "text": "les"
+            }, {
+                "boundingBox": "143,685,55,10",
+                "text": "marques"
+            }, {
+                "boundingBox": "203,682,14,10",
+                "text": "de"
+            }, {
+                "boundingBox": "222,685,56,7",
+                "text": "comme'ce"
+            }]
+        }, {
+            "boundingBox": "102,697,289,12",
+            "words": [{
+                "boundingBox": "102,697,66,12",
+                "text": "Wal-Mart"
+            }, {
+                "boundingBox": "172,697,42,10",
+                "text": "Stores."
+            }, {
+                "boundingBox": "219,697,19,9",
+                "text": "Inc."
+            }, {
+                "boundingBox": "243,698,10,8",
+                "text": "et"
+            }, {
+                "boundingBox": "257,698,22,8",
+                "text": "son'"
+            }, {
+                "boundingBox": "379,698,12,8",
+                "text": "p."
+            }]
+        }, {
+            "boundingBox": "187,711,68,13",
+            "words": [{
+                "boundingBox": "187,711,68,13",
+                "text": "Comp.gnie"
+            }]
+        }, {
+            "boundingBox": "124,725,270,38",
+            "words": [{
+                "boundingBox": "124,734,152,29",
+                "text": "Satisfaction"
+            }, {
+                "boundingBox": "283,725,111,26",
+                "text": "Guaranteed"
+            }]
+        }, {
+            "boundingBox": "155,754,229,41",
+            "words": [{
+                "boundingBox": "155,763,143,32",
+                "text": "Satisfaction"
+            }, {
+                "boundingBox": "306,754,78,30",
+                "text": "garantie"
+            }]
+        }]
+    }]
+}
