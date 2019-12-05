@@ -118,7 +118,7 @@ $lkField.update()
 $ctx.ExecuteQuery()
 #>
 
-$list = New-PnpList -Title "Products" -EnableContentTypes -EnableVersioning -OnQuickLaunch
+$list = New-PnpList -Title "ProductStyles" -EnableContentTypes -EnableVersioning -OnQuickLaunch
 Set-PnpView -List "Products(CDN)" -Identity "All Items" -Fields "","cdntier","stylefamily","brands","categories","cdnstatus","gender","styledescription","mainstyleattributes","subattributes","earthfriendly","garmentfit","icons","companionmens","companionladies","companiontall","companionyouth","descriptionofchange","colorgrouping","sizegroup","sizerange"
 
 Set-PnpView -List "Products(FRE)" -Identity "All Items" -Fields "style","brands","categories","cdnstatus","gender","styledescription","mainstyleattributes","subattributes","icons","companionmens","descriptionofchange","colorgrouping","sizegroup","sizerange"
@@ -157,3 +157,18 @@ $ctx.ExecuteQuery()
 Add-PnpTaxonomyField -Group "Product Management" -DisplayName "Item Number" -InternalName "itemnumber" -TermSetPath "AlphaBroderContent|ItemNumbers"
 
 Add-PnpField -Group "Product Management" -DisplayName "productsizes" -InternalName "productsizes" -Type "Choice" -Choices "S-1XL","S-2XL","S-4XL","S-5XL","S-6XL","S-L","S-L/XL","S-XL","S/M, L/XL","S/M-2XL/3XL","S/M-L/XL","XLT-2XLT","XLT-2XT","XLT-3XLT","XLT-3XT","XLT-5XT","XS, S, M, L, XL","XS, S, M, L, XL, 2XL, 3XL","XS-2XL","XS-3XL","XS-4XL","XS-5XL","XS-6XL"
+
+Add-PnPTaxonomyField -Group "Product Management" -DisplayName "Product Hierarchy" -InternalName "producthierarchy" -TermSetPath "AlphaBroderContent|Product Hierarchy"
+
+Add-PnpField -Group "Styles Management" -DisplayName "Size Range" -InternalName "sizerange" -Type "Choice" -Choices "S-1XL","S-2XL","S-4XL","S-5XL","S-6XL","S-L","S-L/XL","S-XL","S/M, L/XL","S/M-2XL/3XL","S/M-L/XL","XLT-2XLT","XLT-2XT","XLT-3XLT","XLT-3XT","XLT-5XT","XS, S, M, L, XL","XS, S, M, L, XL, 2XL, 3XL","XS-2XL","XS-3XL","XS-4XL","XS-5XL","XS-6XL"
+
+Add-PnpField -Group "Styles Management" -DisplayName "Size Group" -InternalName "sizegroup" -Type "Choice" -Choices "ONE SIZE","S, M, L","S, M, L, XL","S, M, L, XL, 2XL","S, M, L, XL, 2XL, 3XL, 4XL","S, M, L, XL, 2XL, 3XL, 4XL, 5XL","S, M, L, XL, 2XL, 3XL, 4XL, 5XL, 6XL","S, M, L/XL","S/M, L/XL","S/M, L/XL, 2XL/3XL","XLT, 2XT","XLT, 2XT, 3XT","XLT, 2XT, 3XT, 4XT, 5XT","XS, S, M, L","XS, S, M, L, XL, 1XL","XS, S, M, L, XL, 2XL","XS, S, M, L, XL, 2XL, 3XL","XS, S, M, L, XL, 2XL, 3XL, 4XL","XS, S, M, L, XL, 2XL, 3XL, 4XL, 5XL","XS, S, M, L, XL, 2XL, 3XL, 4XL, 5XL, 6XL","XS/S, M/L","XXS, XS, S, M, L, XL","XXS, XS, S, M, L, XL, 2XL","XXS, XS, S, M, L, XL, 2XL, 3XL, 4XL, 5XL","M, L","M, L, XL, 2XL, 3XL","M, L, XL, 2XL, 3XL, 4XL","2T, 3T, 4T","2T, 3T, 4T, 5/6","2T, 3T, 4T, 5/6, 7","2T, 3T, 4T, 5T","2T, 3T, 4T, 5T, 6T","2T, 4T, 5/6","2T/3T-4T","LT, XLT, 2XT, 3XT","LT, XLT, 2XT, 3XT, 4XT","LT, XLT, 2XT, 3XT, 4XT, 5XT","2, 4, 6","1 (14-16), 2 (18-20), 3 (22-24), 4 (26-28)","30, 32, 34, 36, 38, 40","32 X 30, 32 X 32, 32 X 34, 34 X 30, 34 X 32,34 X 34, 36 X 30, 36 X 32, 36 X 34, 38 X 30, 38 X 32, 38 X 34, 40 X 30, 40 X 32, 40 X 34, 42 X 30, 42 X 32, 42 X 34","NEWBORN","NEWBORN, 6MOS, 12MOS, 18MOS","NEWBORN, 6MOS, 12MOS, 18MOS, 24MOS","0-6MOS, 6-12MOS","3-6MOS, 6-12MOS, 12-18MOS, 18-24 MOS","3-6MOS, 6-12MOS, 12-18MOS, 18-24MOS","6MOS, 12MOS, 18MOS","6MOS, 12MOS, 18MOS, 24MOS"
+
+Add-PnpField -Group "Styles Management" -DisplayName "Brand Names" -InternalName "brandnames" -Type "Choice" -Choices "A4","ACCESSORIES","Adams","Adidas","adidas Golf","All Sport","Alo Sport","AlphaBroder","Alstyle","Alternative","American Apparel","Anvil","ANVIL®","Augusta Sportswear","Authentic Pigment","Backpacker","Badger","BAGedge","Bayside","BELLA + CANVAS","BERNE","Big Accessories","Burnside","Carmel Towel Company","Champion","Champion®","CODE FIVE","Collegiate Cotton","Columbia","Comfort Colors®","ComfortWash by Hanes","CORE365™","Devon & Jones®","Dickies","DRI DUCK","Econscious","Extreme","Extreme®","Flexfit","Flexfit 110®","Flexfit 210®","Flexfit®","Flexfit® for Team 365®","Fruit of the Loom®","fūl","Gemline","Gildan","Gildan®","Gildan® DryBlend®","Gildan® Heavy Cotton™","Hanes","Harriton","Harriton®","Headsweats® for Team 365®","Holloway","Igloo®","J AMERICA","J. America","JERZEES®","LAT","Liberty Bags","MARMOT","N/A","Next Level","North End®","PUMA® Golf","PUMA® Sport","Rabbit Skins","Reprime Artisan Collection","SPYDER","SubliVie","Team 365®","Team 365™","Threadfast","Tie-Dye","Tie-Dye for Team 365®","Top Of The World","Towels Plus™","UltraClub®","UNDER ARMOUR","US Blanks","YP Classics™","Yupoong®"
+
+$ctx = Get-PnPContext
+$d = Add-PnPField -Group "Styles Management" -DisplayName "Companions" -InternalName "companions" -Type "Lookup"
+$d.LookupList = "cfb32c38-cc74-412a-b3ce-00d1c3f3b226"
+$d.LookupField = "title"
+$d.update()
+$ctx.ExecuteQuery()

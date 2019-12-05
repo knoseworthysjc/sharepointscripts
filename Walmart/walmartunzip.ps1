@@ -1,7 +1,7 @@
 #\\10.136.209.164\shehala1\todo
 #\\10.136.209.199\Image_Incoming\Work In Progress\DAM DropBox
 Add-Type -AssemblyName System.IO.Compression.FileSystem
-$testing = 0
+$testing = 1
 
 if($testing){
     $in = "C:\Users\KevinNoseworthy\OneDrive - St Joseph Communications, Content Group\Desktop\TestZip\In\"
