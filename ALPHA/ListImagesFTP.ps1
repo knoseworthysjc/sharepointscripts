@@ -48,8 +48,8 @@
             if($count -ge $start){
                 
             try{
-                #Add-Content "AlphaFtpFileName.txt" "$name"
-                Add-PnpListItem -List "AlphaFtpData" -Values $data -ContentType "Item"
+                Add-Content "AlphaFtpFileName.txt" "$name"
+                #Add-PnpListItem -List "AlphaFtpData" -Values $data -ContentType "Item"
             }
             catch {
                 Write-Host("Failed To Create List Item")

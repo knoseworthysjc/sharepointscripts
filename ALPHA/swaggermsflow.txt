@@ -1,0 +1,78 @@
+swagger: '2.0'
+info: {title: GoogleDriveRestAPI, description: Google Drive API, version: '1.0'}
+host: www.googleapis.com
+basePath: /
+schemes: [https]
+consumes: [multipart/form-data]
+produces: []
+paths:
+  /upload/drive/v3/test/{id}:
+  post:
+  requestBody:
+  content: 
+    multipart/form-data: # Media type
+      schema:            # Request payload
+        type: object
+        properties:      # Request parts
+          id:            # Part 1 (string value)
+            type: string
+            format: uuid
+          address:       # Part2 (object)
+            type: object
+            properties:
+              street:
+                type: string
+              city:
+                type: string
+          profileImage:  # Part 3 (an image)
+            type: string
+            format: binary
+  /upload/drive/v3/files/{id}:
+    post:
+      responses:
+        default:
+          description: default
+          schema: {}
+      summary: CreateFile
+      operationId: CreateFile
+      parameters:
+      - {name: id, in: path, required: true, type: string, default: 'null'}
+      - {name: key, in: query, required: false, type: string, default: AIzaSyCu64kk0p7iXYOMtByF5AJmrzgMCnLSf00}
+      - {name: uploadtype, in: query, required: false, type: string, default: multipart}
+      - {name: Content-Type, in: header, required: false, type: string, default: application/json;
+          charset=UTF-8}
+      - name: body
+        in: body
+        required: false
+        schema:
+          type: string
+          properties:
+            name: {type: string, description: name, title: '', default: testimage}
+            parents:
+              type: array
+              items: {type: string, title: '', default: 1xyTcu-DvsYGPjXCx2XFs6NsSBaGVLZfL}
+              description: parents
+  /drive/v3/files/generateIds:
+    get:
+      responses:
+        default:
+          description: default
+          schema: {}
+      summary: Files
+      operationId: GenerateID
+      parameters:
+      - {name: key, in: query, required: true, type: string, default: AIzaSyCu64kk0p7iXYOMtByF5AJmrzgMCnLSf00}
+      - {name: Content-Type, in: header, required: false, type: string, default: application/json}
+definitions: {}
+parameters: {}
+responses: {}
+securityDefinitions:
+  oauth2_auth:
+    type: oauth2
+    flow: accessCode
+    authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    tokenUrl: https://login.windows.net/common/oauth2/authorize
+    scopes: {'https://www.googleapis.com/auth/drive.file': 'https://www.googleapis.com/auth/drive.file'}
+security:
+- oauth2_auth: ['https://www.googleapis.com/auth/drive.file']
+tags: []
