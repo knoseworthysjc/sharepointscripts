@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "block",    
+        "margin": "0 auto",    
+        "max-height": "200px"    
+  },
+  "children": [
+    {
+      "elmType": "img",
+      "attributes": {
+        "src": "@thumbnail.medium",
+        "alt": "='Thumbnail of file ' + [$FileLeafRef]"
+      },
+      "style": {
+        "display": "block",    
+        "margin": "0 auto",    
+        "max-height": "100px" 
+      }
+    },{
+        "elmType":"div",
+        "style":
+        {"display":"block","margin":"auto :auto","max-height":"75px","border-top":"1px solid black"},
+        "txtContent": "@currentField.Name"
+}
+  ]
+}

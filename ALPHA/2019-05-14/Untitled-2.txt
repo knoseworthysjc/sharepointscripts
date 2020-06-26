@@ -1,0 +1,1 @@
+Add-PnPListItem -List "Colors" -Values@{"Title"="TT10-Sport Vegas Gold/Sport Silver";"brandname"="e1334203-5816-431b-a38d-dc240c212fe8";"abstyle"="1364";"color_name"="Sport Vegas Gold/Sport Silver";}

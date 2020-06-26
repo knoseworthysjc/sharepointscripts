@@ -1,0 +1,2 @@
+$url = "https://sjccontent.sharepoint.com/teams/AlphaBroderContent"
+$conn = Connect-PnPOnline -Url $url -UseWebLogin

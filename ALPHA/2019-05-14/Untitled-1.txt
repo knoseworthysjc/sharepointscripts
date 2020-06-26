@@ -1,0 +1,45 @@
+{
+   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+   "elmType": "img",
+   "attributes": {
+      "alt": "@currentField.lookupValue",
+      "src": {
+"operator":"+",
+"operands":["https://sjccontent.sharepoint.com/teams/AlphaBroderContent/Web%20Images/",
+"[$brand.lookupValue]",
+"/",
+"[$abstyle.lookupValue]",
+"/",
+"@currentField.lookupValue"
+]
+}
+   },
+   "style": {
+      "width": "100%",
+      "max-width": "100%"
+   }
+}
+
+https://graph.microsoft.com/v1.0/sites/55108301-a4ca-4bc8-b503-089377894d24,5ee34fef-8c2d-45b0-aac2-1b3d45f11532/drives/
+
+    "createdDateTime": "2020-03-20T18:12:42Z",
+            "description": "",
+            "id": "b!AYMQVcqkyEu1AwiTd4lNJO9P414tjLBFqsIbPUXxFTKJE7s1SWVaSIpENazJBGfo",
+            "lastModifiedDateTime": "2020-03-25T00:19:08Z",
+            "name": "WebImages",
+            "webUrl": "https://sjccontent.sharepoint.com/teams/AlphaBroderContent/WebImages",
+            "driveType": "documentLibrary",
+            "createdBy": {
+                "user": {
+                    "email": "kevin.noseworthy@stjosephcontent.com",
+                    "id": "f8431dfe-08de-4a6e-a8a1-62d85352eae8",
+                    "displayName": "Kevin Noseworthy"
+                }
+            },
+
+_api/v2.0/sites/{site-id}/drives/{drive-id}/root/children?$expand=thumbnails($select=large),listitem($expand=fields($select=Title))&$select=id,name
+
+https://graph.microsoft.com/v1.0/sites/55108301-a4ca-4bc8-b503-089377894d24,5ee34fef-8c2d-45b0-aac2-1b3d45f11532/drives/b!AYMQVcqkyEu1AwiTd4lNJO9P414tjLBFqsIbPUXxFTKJE7s1SWVaSIpENazJBGfo/root/children?$expand=thumbnails($select=small),listitem($expand=fields($select=Title))&$select=id,name
+
+
+https://graph.microsoft.com/v1.0/sites/55108301-a4ca-4bc8-b503-089377894d24,5ee34fef-8c2d-45b0-aac2-1b3d45f11532/drives/b!AYMQVcqkyEu1AwiTd4lNJO9P414tjLBFqsIbPUXxFTKJE7s1SWVaSIpENazJBGfo/root/children?$expand=thumbnails($select=small),listitem($expand=fields($select=Title))&$select=id,name

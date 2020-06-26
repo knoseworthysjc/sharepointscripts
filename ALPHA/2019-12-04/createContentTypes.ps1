@@ -1,5 +1,5 @@
 $url = "https://sjccontent.sharepoint.com/teams/AlphaBroderContent"
-Connect-PnPOnline -Url $url
+Connect-PnPOnline -Url $url -useweblogin
 
 #$item = Get-PnpContentType -Identity "Item" -InSiteHierarchy
 #Add-PnpContentType -Name "Projects" -Group "Project Management" -ParentContentType $item | Out-Null

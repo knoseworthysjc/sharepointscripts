@@ -1,0 +1,680 @@
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33852
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33777
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33845
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33858
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33893
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33866
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33920
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33813
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33814
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33821
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33921
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33922
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33804
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=25689
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33817
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33901
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33815
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33886
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33873
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33870
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33879
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33897
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33905
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33889
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33833
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33780
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33847
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33829
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=30848
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33909
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33965
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33970
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34650
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33977
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34018
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34026
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33949
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34027
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33947
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=24157
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=24025
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=24156
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33983
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34202
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33990
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33993
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33985
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34006
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34005
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34007
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34002
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34000
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=33998
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34054
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34032
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34044
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34043
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34036
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34048
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34249
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34241
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34269
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34126
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34259
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34266
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34360
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34373
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=24962
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34376
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34391
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34382
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34191
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34192
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=113
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34190
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34189
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=24259
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=25407
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34562
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34575
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34577
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34574
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34564
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=34580
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
+insert ignore into `offers` (`rawdata`,`projects_id`) 
+select json_set(`offers`.`rawdata`,'$.pagefrom',1,'$.pageto',1),73
+ FROM  
+`offers` 
+where 
+`id`=25526
+and `abstyle` not in (select `abstyle` from `offers` where `projects_id` = 73) 
+;
